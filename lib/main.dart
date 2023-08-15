@@ -54,8 +54,8 @@ class MyHomePage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children:[
 Text("Date Time Before: ${DateTime.now()}"),//Normal  Datetime text
-Text("Date Time After changing: ${curDateTimeByZone(zone: "PST")}"),//Datetime text according to PST timezone entered or choosen
-Text("Date Time After changing: ${curDateTimeByZone(zone: "PDT")}"),//Datetime text according to PDT timezone
+Text("Date Time After changing in PST: ${curDateTimeByZone(zone: "PST")}"),//Datetime text according to PST timezone entered or choosen
+Text("Date Time After changing in PDT: ${curDateTimeByZone(zone: "PDT")}"),//Datetime text according to PDT timezone
 ])
       );
   }
